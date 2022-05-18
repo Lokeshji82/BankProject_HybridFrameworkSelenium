@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<suite name="BANKPROJECT">
+
+	<listeners>
+	 <listener class-name="bankproject.Utilities.Reporting" />
+	</listeners>
+
+	<test name="BANK-PROJECT-APP TEST">
+		<parameter name="browser" value="chrome" />
+		<classes>
+		<!--	 <class name="bankproject.TestCases.TC_LoginTest_001" />  -->
+		 <class name="bankproject.TestCases.TC_LoginDDT_002" />  
+		<!--	<class name="bankproject.TestCases.TC_AddCustomerTest_003" />  --> 
+		</classes>
+	</test>
+</suite>
